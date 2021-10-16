@@ -7,57 +7,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="header">
+        <h1>css/html slider</h1>
+    </header>
+    <section class="wrapper">
+    <input type="radio" name="slide" id="slide-1" checked>
+    <input type="radio" name="slide" id="slide-2">
+    <input type="radio" name="slide" id="slide-3">
+    <input type="radio" name="slide" id="slide-4">
 
-   <fieldset>
-    <section class="section">
-        <div class="slider-wrap">
-            <div class="slider  wrapper">
-                <div class="slides">
-                   <input type="radio" name="r" id="r1" aria-labelledby="r1_s" checked>
-                   <input type="radio" name="r" id="r2" aria-labelledby="r2_s">
-                   <input type="radio" name="r" id="r3" aria-labelledby="r3_s">
-                   <input type="radio" name="r" id="r4" aria-labelledby="r4_s">
-        
-                   <div class="slide s1"> <img src="asets/mems1.jpg" alt="mems"></div>
-                   <div class="slide"><img src="asets/mems2.jpg" alt="mems"></div>
-                   <div class="slide"><img src="asets/mems3.jpg" alt="mems"></div>
-                   <div class="slide"><img src="asets/mems4.jpg" alt="mems"></div>
-                </div>
-               
-               
+    <div class="slider">
+        <div class="slider__images-container">
+        <div class="slider__images">
+            <img src="asets/mems1.jpg" alt="img" class="slider__image">
+            <img src="asets/mems2.jpg" alt="img"class="slider__image">
+            <img src="asets/mems3.jpg" alt="img" class="slider__image">
+            <img src="asets/mems4.jpg" alt="img" class="slider__image">
+        </div>
+        </div>
+        <div class="slider__bottom">
+        <div class="slider__info-container">
+            <div class="slider__info">
+            <div class="slider__info-text">sd</div>
+            <div class="slider__info-text">sddf</div>
+            <div class="slider__info-text">dffdsf</div>
+            <div class="slider__info-text">asdd</div>
+        </div>
+        </div>
+        <div class="slider__controls-container">
+            <div class="slider__controls">
+            <label for="slide-1" class="slider__controls-label label-1"><span
+                class="slider__controls-span"></span></label>
+            <label for="slide-2" class="slider__controls-label label-2"><span
+                class="slider__controls-span"></span></label>
+            <label for="slide-3" class="slider__controls-label label-3"><span
+                class="slider__controls-span"></span></label>
+            <label for="slide-4" class="slider__controls-label label-4"><span
+                class="slider__controls-span"></span></label>
             </div>
         </div>
-        <div class="text-wrap">
-            <div class="texts">
-                <input type="radio" name="r" id="r1_s" checked>
-                <input type="radio" name="r" id="r2_s"  >
-                <input type="radio" name="r" id="r3_s"  >
-                <input type="radio" name="r" id="r4_s"  >
-                <h2 class="text slide s1">adssdasdadsassdsadsa</h2>
-                <h2 class="text slide">sdfsdf</h2>
-                <h2 class="text slide">adssdasdadsassd</h2>
-                <h2 class="text slide">adsadsa</h2>
-     
-            </div>
         </div>
-        <div class="navi-wrap">
-            <div class="navigation">
-                <label  for="r1"  class="bar "></label>
-                <label  for="r2" class="bar"></label>
-                <label  for="r3" class="bar "></label>
-                <label  for="r4" class="bar"></label>
-            </div>
-        </div>
+    </div>
     </section>
-   </fieldset>
-
-
-
-
-
-
-
-
-    
+   
 </body>
 </html>
